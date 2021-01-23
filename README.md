@@ -1,9 +1,11 @@
 # Minimal Flask API
 
+A Flask Restful API with 3 endpoints and a single-file mock database.
+
 Run with:
 ```sh
 docker build -t sample-flask-api .
-docker run -d --network host --name flask-api sample-flask-api:latest
+docker run -d --rm --network host --name flask-api sample-flask-api:latest
 ```
 
 ## Sample Test Curl Requests
